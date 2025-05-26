@@ -70,12 +70,12 @@ Este proyecto es una API REST de demostración que utiliza Quarkus, Kotlin y Gra
 
 3. **Obtener una película por ID:**
    ```bash
-   curl http://localhost:8080/api/movies/1
+   curl http://localhost:8080/api/movies/{id}
    ```
 
 4. **Actualizar una película:**
    ```bash
-   curl -X PUT http://localhost:8080/api/movies/1 \
+   curl -X PUT http://localhost:8080/api/movies/{id} \
      -H "Content-Type: application/json" \
      -d '{
        "title": "Inception",
@@ -87,7 +87,7 @@ Este proyecto es una API REST de demostración que utiliza Quarkus, Kotlin y Gra
 
 5. **Eliminar una película:**
    ```bash
-   curl -X DELETE http://localhost:8080/api/movies/1
+   curl -X DELETE http://localhost:8080/api/movies/{id}
    ```
 
 ## 📦 Estructura del Proyecto
