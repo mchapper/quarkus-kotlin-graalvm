@@ -106,6 +106,13 @@ src/
 │   │               └── MovieResource.kt  # Endpoints REST
 │   └── resources/
 │       └── application.properties        # Configuración
+└── test/
+    └── kotlin/
+        └── com/
+            └── movies/
+                └── api/
+                    ├── MovieResourceTest.kt  # Tests de endpoints REST
+                    └── MovieServiceTest.kt   # Tests de lógica de negocio
 ```
 
 ## 🔧 Configuración
