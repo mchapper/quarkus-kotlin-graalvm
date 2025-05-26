@@ -23,7 +23,7 @@ Este proyecto es una API REST de demostración que utiliza Quarkus, Kotlin y Gra
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <url-del-repositorio>
+   git clone git@github.com:mchapper/quarkus-kotlin-graalvm.git
    cd quarkus-kotlin-graalvm
    ```
 
