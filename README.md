@@ -138,6 +138,41 @@ El proyecto incluye un `docker-compose.yml` que configura:
 
 La aplicación estará disponible en `http://localhost:8080`
 
+## 🧪 Tests Unitarios
+
+El proyecto incluye tests unitarios para validar la funcionalidad de la API. Los tests están escritos usando JUnit 5 y MockK para el mocking.
+
+### Ejecutar los Tests
+
+Para ejecutar los tests unitarios:
+
+```bash
+mvn clean test
+```
+
+### Reporte de Cobertura
+
+El proyecto utiliza JaCoCo para generar reportes de cobertura de código. Después de ejecutar los tests, puedes encontrar el reporte en:
+
+```
+target/site/jacoco/index.html
+```
+
+### Estructura de Tests
+
+Los tests están organizados en:
+
+- `MovieResourceTest`: Tests para los endpoints REST
+- `MovieServiceTest`: Tests para la lógica de negocio
+
+### Ejecutar Tests con Cobertura
+
+Para ejecutar los tests y generar el reporte de cobertura:
+
+```bash
+mvn clean test jacoco:report
+```
+
 ## 🛑 Detener y Limpiar
 
 Para detener y eliminar todos los contenedores, volúmenes y redes creados por docker-compose:
